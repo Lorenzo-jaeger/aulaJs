@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>aula 2</title>
+        
+    </head>
+    <body>
+        
+
+        <script>
+        var idade= prompt("qual a idade?")
+
+        if(idade>=0 && idade<12 ){
+            document.write("criança");
+        }
+        if(idade>=13 && idade<18 ){
+            document.write("adolecente");
+        
+        }
+        if(idade>=18 && idade<60 ){
+            document.write("adulto");
+        }
+        if(idade>=60 ){
+            document.write("idoso");
+        }
+
+        //verificar valor
+        if(1=="1"){
+            console.log('sim, 1=="1"');
+        }else{
+            console.log("não");
+        }
+
+        //verificar valor e o tipo de dado
+        if(1==="1"){
+            console.log('sim, 1==="1"');
+        }else{
+            console.log("não");
+        }
+        
+        var sexo = prompt("qual o sexo?")
+
+        switch(sexo){
+            case 'm':
+                document.write("masculino");
+                break;
+            
+            case 'f':
+                document.write("feminino");
+                break;
+            default:
+                document.write("sexo desconhecido");
+                break;
+        }
+        </script>
+        
+    </body>
+</html>
